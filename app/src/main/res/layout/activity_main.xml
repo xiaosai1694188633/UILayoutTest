@@ -5,30 +5,25 @@
     <Button
         android:text="Button"
         android:layout_width="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btn3"
         android:layout_height="wrap_content"/>
+
     <Button
-        android:text="Button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
+        android:id="@+id/btn3"
         android:text="Button"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:text="Button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btn3"
+        android:layout_toLeftOf="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:text="Button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btn3"
+        android:layout_toRightOf="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </RelativeLayout>
